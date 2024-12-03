@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="km">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To my sweetheart, Tey❤️</title>
+    <style>
+        @keyframes heartbeat {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.2);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(100%);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes gradientShift {
+            0% {
+                background: linear-gradient(to bottom right, #ffe5e5, #ffc1cc);
+            }
+
+            50% {
+                background: linear-gradient(to bottom right, #ffc1cc, #ffe5e5);
+            }
+
+            100% {
+                background: linear-gradient(to bottom right, #ffe5e5, #ffc1cc);
+            }
+        }
+
+        body {
+            font-family: 'Khmer OS Battambang', sans-serif;
+            animation: gradientShift 10s infinite;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .container {
+            padding: 30px;
+            max-width: 800px;
+            margin: auto;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin: 20px 0;
+            color: #b22222;
+            text-shadow: 2px 2px #ffc1cc;
+            animation: slideIn 1.5s ease-out;
+        }
+
+        p {
+            font-size: 1.5em;
+            margin: 20px 0;
+            color: #800000;
+            line-height: 1.6;
+            animation: slideUp 2s ease-in-out;
+        }
+
+        img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 20px;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: block;
+            animation: slideIn 2s ease-in-out;
+        }
+
+        button {
+            background: linear-gradient(to right, #ff6f91, #ff8eaa);
+            color: #fff;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.2em;
+            font-family: 'Khmer OS Battambang', sans-serif;
+            border-radius: 30px;
+            cursor: pointer;
+            margin: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            animation: fadeIn 2s ease-in;
+        }
+
+        button:hover {
+            background: linear-gradient(to right, #ff5a79, #ff8095);
+            transform: scale(1.1);
+        }
+
+        button:active {
+            transform: scale(0.95);
+        }
+
+        .heart {
+            font-size: 6em;
+            color: #ff69b4;
+            margin: 20px 0;
+            animation: heartbeat 1.5s infinite;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 1.1em;
+            color: #555;
+            background: rgba(255, 224, 230, 0.5);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .sound-btn {
+            background-color: transparent;
+            color: white;
+            font-size: 2em;
+            border: none;
+            cursor: pointer;
+            position: fixed;
+            bottom: 20px;
+            /* Adjust based on where you want the button */
+            right: 20px;
+            /* Adjust position to the bottom-right corner */
+            padding: 10px;
+            border-radius: 50%;
+            background-color: rgba(255, 105, 180, 0.8);
+            /* Light pink color */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .sound-btn:hover {
+            background-color: rgba(255, 20, 147, 0.8);
+            /* Darker pink when hovered */
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Background Music -->
+    <audio id="background-music" autoplay loop>
+        <source src="./assets/music/Peder B. Helland - You & Me (Piano Version).mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="container">
+        <h1>សួស្តីមនុស្សដ៏ស្រស់ស្អាតរបស់ សំណាង</h1>
+
+        <img src="./assets/images/image1.png" alt="Our Special Moment">
+
+        <p>
+            "អូនដឹងអត់<br>
+            អូនគឺជាពន្លឺនៃពិភពលោករបស់បង,<br>
+            ជាមួយនឹងការមើលម្តងៗ និងស្នាមញញឹមដ៏ស្រស់ស្អាត។<br>
+            ថ្ងៃនេះ បងបានទើបតែចេះបង្កើតនូវវេបសាយដំបូង<br>
+            ហើយក៏សុំចិត្តរបស់អូន<br>
+            ដើម្បីមានការណាត់ជួបមួយ។"
+        </p>
+
+        <h1 class="heart">💖</h1>
+
+        <img src="./assets/images/image2.png" alt="Special Memory">
+
+        <p>
+            នៅថ្ងៃទី
+            <strong>៤ ខែធ្នូ ឆ្នាំ២០២៤</strong><br>
+            តើអូនអាចផ្តល់ឱកាសអោយបងបានទេ?<br>
+        </p>
+
+
+        <img src="./assets/images/image3.png" alt="Heart Graphic">
+
+        <button style="font-family: 'Khmer OS Battambang', sans-serif;" onclick="showMessage()">ចាស អូនយល់ព្រម!</button>
+        <button style="font-family: 'Khmer OS Battambang', sans-serif;" onclick="showMessage()">ច្បាស់ណាស់​
+            បងសម្លាញ់!</button>
+
+        <!-- Add a fixed button with a sound symbol -->
+        <button class="sound-btn" onclick="playMusic()">🔊</button>
+
+    </div>
+
+    <footer>ចិត្តស្មោះសម្រាប់តែអូនមួយ​ ជាស្នេហាដែលបងមិនអាចបំភ្លេចបាន​​​ 💕</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script>
+        // Function to handle background music toggle
+        const music = document.getElementById("background-music");
+        const soundButton = document.querySelector(".sound-btn");
+
+        function toggleSound() {
+            if (music.paused) {
+                music.play();
+                soundButton.innerText = "បិទសំឡេង";
+            } else {
+                music.pause();
+                soundButton.innerText = "បើកសំឡេង";
+            }
+        }
+
+        function showMessage() {
+            confetti({
+                particleCount: 100,
+                spread: 70,
+                origin: { y: 0.6 }
+            });
+
+            const container = document.querySelector('.container');
+            container.innerHTML = ` 
+                <h1>អរគុណដែលអូនបានយល់ព្រម! 💕</h1>
+                <p>បងស្រលាញ់អូនជាងអ្វីៗទាំងអស់។<br>
+                រង់ចាំថ្ងៃដ៏ពិសេសនោះជាមួយអូនស្ទើររាល់ថ្ងៃ។</p>
+                <h1 class="heart">❤️❤️❤️</h1>
+            `;
+        }
+
+        // Function to handle background music play
+        function playMusic() {
+            const music = document.getElementById("background-music");
+            const soundButton = document.querySelector(".sound-btn");
+
+            // Start the music
+            music.play();
+
+            // Change button text to indicate the sound is playing
+            soundButton.innerText = "🔇";  // Change icon to a muted sound symbol
+            soundButton.setAttribute("onclick", "toggleSound()");  // Set the toggle function for muting the sound
+        }
+
+        // Function to toggle sound (mute/unmute)
+        function toggleSound() {
+            const music = document.getElementById("background-music");
+            const soundButton = document.querySelector(".sound-btn");
+
+            if (music.paused) {
+                music.play();
+                soundButton.innerText = "🔇";  // Muted sound icon
+            } else {
+                music.pause();
+                soundButton.innerText = "🔊";  // Unmuted sound icon
+            }
+        }
+
+    </script>
+</body>
+
+</html>
